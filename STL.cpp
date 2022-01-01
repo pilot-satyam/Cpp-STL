@@ -126,6 +126,7 @@ int main()
 	 map<string,int> m;
 	 m["satyam"] = 22;
 	 m["paridhi"] = 21;
+	 m["Aashiq"] = 22;
 	 m["satyam"] = 23 //here it overides the key value and it will store as 23 instead of 21
 	 m.emplace("satyam",21);
 	 m.erase("satyam");//single instance
